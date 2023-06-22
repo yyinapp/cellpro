@@ -7,3 +7,22 @@
     <p>好きな食べ物 : もも</p>
   </body>
 </html>
+
+<!-- HTMLコード -->
+<h2>見出しデザイン</h2>
+/* CSSコード */
+h2 {
+  display: inline-block;
+  color: #fff;
+  background: #ffaf58;
+  padding: 0.5em;
+  line-height: 1.5;
+  vertical-align: middle;
+  border-radius: 30px 0px 0px 30px;
+}
+
+h2::before {
+  content: '●';
+  color: #fff;
+  margin-right: 8px;
+}
